@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/dashboard-setting.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <title>Dashboard | Setting</title>
+  </head>
+  <body>
+    <main class="">
+      <section class="dashboard__section">
+        <header class="dashboard__header">
+          <p class="dashboard__header-text">Profile</p>
+          <div class="dashboard__header-right">
+            <p>25th Sept Friday</p>
+            <svg class="svg svg-white dashboard__header-icon"><use xlink:href="svg/Material-icon.svg#icon-search"></use></svg>
+          </div>
+        </header>
+
+        <aside class="aside__left">
+          <h1 class="dashboard__header-logo"><a href="home-page.html"> WeTeach </a></h1>
+          <div class="aside__left-detail">
+            <svg class="aside__left-svg"><use xlink:href="svg/Material-icon.svg#icon-dashboard"></use></svg>
+            <a href="dashboard-home.html" class="">Dashboard</a>
+          </div>
+          <div class="aside__left-detail">
+            <svg class="aside__left-svg"><use xlink:href="svg/Material-icon.svg#icon-note"></use></svg>
+            <a href="dashboard-course.html" class="">Courses</a>
+          </div>
+          <div class="aside__left-detail">
+            <svg class="aside__left-svg"><use xlink:href="svg/Material-icon.svg#icon-file_download"></use></svg>
+            <a href="dashboard-resources.html" class="">Resources</a>
+          </div>
+          <div class="aside__left-detail">
+            <svg class="aside__left-svg"><use xlink:href="svg/Material-icon.svg#icon-email"></use></svg>
+            <a href="dashboard-chat.html" class="">Messages</a>
+          </div>
+          <div class="aside__left-detail">
+            <svg class="aside__left-svg"><use xlink:href="svg/Material-icon.svg#icon-notifications_none"></use></svg>
+            <a href="dashboard-notification.html" class="">Notifications</a>
+          </div>
+          <div class="aside__left-detail">
+            <svg class="aside__left-svg dashboard-svg-active"><use xlink:href="svg/Material-icon.svg#icon-settings"></use></svg>
+            <a class="active-label-text">Settings</a>
+          </div>
+        </aside>
+
+        <section class="dasboard__notification-section">
+          <div class="profile__setting">
+            <div class="profile__image"></div>
+            <p class="profile__image-edit">Edit Photo</p>
+
+            <ul class="profile__list">
+              <li class="profile__items profile__items-active fw-bold">Profile</li>
+              <li class="profile__items">Account settings</li>
+              <li class="profile__items">Payment methods</li>
+              <li class="profile__items">Privacy</li>
+            </ul>
+          </div>
+          <div class="profile__information">
+            <form action="" class="profile__form">
+              <label for="">Personal Information</label>
+              <input type="text" value=" Olawale Oreoluwa" placeholder="Name" />
+              <input type="tel" value=" O08253775674" placeholder="Mobile" />
+              <input type="text" value="Olawale@gmail.com" placeholder="Email" />
+              <input type="text" value="Abuja" placeholder="Location" />
+              <label for="">Password Management</label>
+              <input type="text" value="Olawale" placeholder="Old Password" />
+              <input type="text" value="Oreoluwa" placeholder="New Password" />
+              <button class="profile__btn">Change</button>
+            </form>
+          </div>
+        </section>
+
+        <aside class="aside__right">
+          <div class="aside-right__top-tag">
+            <p>Logout</p>
+            <svg class="svg"><use xlink:href="svg/Material-icon.svg#icon-login"></use></svg>
+          </div>
+
+          <div class="aside-right__container">
+            <div class="right-aside__user-profile">
+              <img src="./img/blackman-profile.jpg" alt="" class="aside__right-image" />
+              <span class="right__image-add-sign"><span>+</span></span>
+              <p class="sub-heading user__profile-name">James Shina</p>
+              <p>Student</p>
+            </div>
+            <div class="course__progress">
+              <div class="aside-right__content-tag">
+                <h2 class="">Progress(3)</h2>
+                <p>See all</p>
+              </div>
+              <div class="course__progress-box">
+                <div class="course__progress-content">
+                  <img src="./img/course_pics-1.jpg" alt="" class="course__progress-image" />
+                  <div class="course__progress-detail">
+                    <p class="course__progress-title">UI/UX Design</p>
+                    <p class="course__progress-level">Advanced</p>
+                  </div>
+                  <div class="course__progress-bar-box progress-bar-box-1">
+                    <span class="course__progress-bar"></span>
+                  </div>
+                </div>
+                <div class="course__progress-content">
+                  <img src="./img/course_pics-1.jpg" alt="" class="course__progress-image" />
+                  <div class="course__progress-detail">
+                    <p class="course__progress-title">UI/UX Design</p>
+                    <p class="course__progress-level">Advanced</p>
+                  </div>
+                  <div class="course__progress-bar-box progress-bar-box-2">
+                    <span class="course__progress-bar"></span>
+                  </div>
+                </div>
+                <div class="course__progress-content">
+                  <img src="./img/course_pics-1.jpg" alt="" class="course__progress-image" />
+                  <div class="course__progress-detail">
+                    <p class="course__progress-title">UI/UX Design</p>
+                    <p class="course__progress-level">Advanced</p>
+                  </div>
+                  <div class="course__progress-bar-box progress-bar-box-3">
+                    <span class="course__progress-bar"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="aside__right-task">
+              <div class="aside-right__content-tag">
+                <h2 class="sub-heading">Upcoming Task(5)</h2>
+                <p>See all</p>
+              </div>
+              <div class="">
+                <div class="task__content">
+                  <img src="./img/course_pics-1.jpg" alt="" class="task__image" />
+                  <div class="">
+                    <p class="task__title">Animation -3D Animation</p>
+                    <p class="task__date">27 Oct 2020, Tuesday</p>
+                  </div>
+                </div>
+                <div class="task__content">
+                  <img src="./img/course_pics-2.jpg" alt="" class="task__image" />
+                  <div class="">
+                    <p class="task__title">UI/UX -Discussion</p>
+                    <p class="task__date">27 Oct 2020, Tuesday</p>
+                  </div>
+                </div>
+                <div class="task__content">
+                  <img src="./img/course_pics-3.jpg" alt="" class="task__image" />
+                  <div class="">
+                    <p class="task__title">Animation - 3D Animation</p>
+                    <p class="task__date">27 Oct 2020, Tuesday</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

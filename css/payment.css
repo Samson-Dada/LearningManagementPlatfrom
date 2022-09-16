@@ -1,0 +1,121 @@
+.payment__section {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+
+  margin-top: 3rem;
+}
+.payment__process-left {
+  margin-top: 1rem;
+}
+.payment__process {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.payment__process-check {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.payment__form {
+  /* width: 40%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.payment__form-input {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+  width: 100%;
+}
+.payment__form-input input:nth-child(1) {
+  width: 60%;
+}
+.payment__form-input input:nth-child(2) {
+  width: 60%;
+}
+.payment__form input {
+  border: none;
+  padding: 0.9rem;
+  border-radius: 0.5rem;
+  background-color: #f5f5f5;
+}
+
+.payment__form input:nth-child() {
+  width: 40%;
+}
+#payment__form-input-size {
+  width: 43%;
+}
+#payment__form-checkbox {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  font-size: 0.8rem;
+}
+.svg-payment-form {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.payment__process-right {
+  background: #e4eefb;
+  width: 35%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding-bottom: 8rem;
+}
+.payment__process-summary {
+  margin: auto 4rem;
+  width: 80%;
+}
+.payment__summary {
+  text-align: center;
+  margin-top: 2.1rem;
+  margin-bottom: 1.5rem;
+}
+.payment__price,
+.payment__total {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 0.8rem;
+}
+.payment__price {
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #cccccc;
+}
+.payment__total {
+  font-weight: bold;
+}
+.payment__update {
+  margin-bottom: 3rem;
+}
+.payment__update,
+.payment__terms {
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+.payment__terms span {
+  color: #232c7f;
+}
+.payment__btn {
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.6rem 1rem;
+  letter-spacing: 1px;
+  background-color: #232c7f;
+  color: white;
+}

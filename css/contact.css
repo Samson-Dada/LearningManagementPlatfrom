@@ -1,0 +1,171 @@
+/*****Header Section *****/
+.contact__header-container {
+  background: linear-gradient(92.39deg, #242d80 51.61%, #081c4c 88.27%);
+}
+.header {
+  padding: 1rem 3rem 0.5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #242d80; */
+
+  /* background: linear-gradient(to left, 92.39deg, #242d80 51.61%, #081c4c 88.27%); */
+}
+
+.header__logo {
+  /* font-family: "Nunito"; */
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: var(--color-white);
+}
+.header__nav {
+  padding-left: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+}
+.nav {
+  display: flex;
+  /* gap: 2.6rem; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.nav__list-items {
+  font-size: 0.9rem;
+  list-style-type: none;
+}
+.nav__list-links {
+  text-decoration: none;
+  color: var(--color-white);
+}
+.header__user {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 4rem;
+}
+.header__user-link,
+.header__user-btn {
+  font-size: 1rem;
+  line-height: 28px;
+}
+.header__user-link {
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.header__user-btn {
+  background-color: var(--color-white);
+  color: #263859;
+  border: none;
+  padding: 0.3rem 0.9rem;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+.header__hero {
+  padding: 4.5rem 1rem 18rem 1rem;
+}
+.header__hero h1,
+.header__hero p {
+  font-size: 1rem;
+  color: var(--color-white);
+}
+/***** End Section *****/
+/*****Header End Section *****/
+
+/***** Create Account Section *****/
+
+.contact__section {
+  transform: translateY(-52%);
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  box-shadow: var(--shadow);
+}
+.contact__left {
+  border-top-left-radius: 0.6rem;
+  border-bottom-left-radius: 0.6rem;
+  width: 65%;
+  background-color: var(--color-white);
+}
+.contact__left h2 {
+  margin-top: 2rem;
+}
+.contact__form {
+  margin: 2rem auto;
+  display: grid;
+  row-gap: 1.2rem;
+  width: 70%;
+}
+.contact__form input,
+.contact__form textarea {
+  background-color: #f5f5f5;
+  padding: 0.7rem;
+  border-radius: 0.6rem;
+  border: none;
+}
+.contact__form input::placeholder {
+  font-family: inherit;
+}
+.create-account__svg {
+  padding: 0.5rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(100, 100, 100, 0.3);
+}
+.contact__btn {
+  width: 100%;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.6rem 1rem;
+  letter-spacing: 1px;
+  background-color: #232c7f;
+  color: white;
+}
+.contact__right {
+  padding-top: 2rem;
+  background-color: #e4eefb;
+  /* width: 40%; */
+  padding-left: 2rem;
+  border-bottom-right-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
+  /* box-shadow: var(--shadow); */
+}
+.contact__address {
+  padding-top: 1rem;
+  font-style: normal;
+  display: grid;
+  grid-row-gap: 2rem;
+}
+.contact__details {
+  display: flex;
+  gap: 0.8rem;
+}
+.contact__details p {
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+.contact__details svg,
+.contact__icons svg {
+  fill: var(--primary-color);
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.contact__icons {
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 2rem;
+}
+/*****Create Account End Section *****/

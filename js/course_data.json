@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "course_author": "by Maximilian Schwarzmüller",
+    "course_title": "Software Engineering",
+    "course_body": "The product helps to achieve stellar results for students in Junior and Senior school. Junior students. The product helps to achieve in school. Junior school students",
+    "course_duration": "3.5 hours",
+    "course_stage": "15 lessons",
+    "course_level": "All level",
+    "course_price": "210,000",
+    "course_original_price": "400,000"
+  },
+  {
+    "id": 2,
+    "course_author": "by Maximilian Schwarzmüller",
+    "course_title": "Product Design",
+    "course_body": "The product helps to achieve stellar results for students in Junior and Senior school. Junior students. The product helps to achieve in school. Junior school students",
+    "course_duration": "3.5 hours",
+    "course_stage": "15 lessons",
+    "course_level": "All level",
+    "course_price": "210,000",
+    "course_original_price": "400,000"
+  },
+  {
+    "id": 3,
+    "course_author": "by Maximilian Schwarzmüller",
+    "course_title": "Web Development",
+    "course_body": "The product helps to achieve stellar results for students in Junior and Senior school. Junior students. The product helps to achieve in school. Junior school students",
+    "course_duration": "3.5 hours",
+    "course_stage": "15 lessons",
+    "course_level": "All level",
+    "course_discount_price": "210,000",
+    "course_original_price": "400,000"
+  }
+]

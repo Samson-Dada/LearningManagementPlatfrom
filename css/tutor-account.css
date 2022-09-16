@@ -1,0 +1,77 @@
+/*****Tutor-account Section *****/
+
+.tutor-account__section {
+  margin: 3rem auto;
+  width: 33%;
+  padding: 0.5rem 0 0.5rem 0.7rem;
+  box-shadow: var(--shadow);
+}
+.tutor-account__text {
+  margin-top: 1.3rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #232c7f;
+  margin-left: 2rem;
+}
+.tutor-account__form-group {
+  margin: 2rem 0 0 2rem;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  /* display: block; */
+  /* align-items: center; */
+  /* justify-content: flex-end; */
+}
+.tutor-account__form-group label,
+.tutor-account__form-group input {
+  /* display: flex; */
+  /* display: inline-block; */
+  /* justify-content: space-evenly; */
+  /* flex-direction: column; */
+  /* flex-direction: row; */
+  /* margin-top: 0.9rem; */
+}
+
+.tutor-account__form-group input {
+  border-radius: 30%;
+}
+.tutor-account__form-group label {
+  font-size: 1rem;
+  /* margin-top: -0.8rem; */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.tutor-account__footer {
+  width: max-content;
+  display: flex;
+  gap: 3rem;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.tutor-account__signin {
+  font-size: 0.9rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.tutor-account__signin span {
+  color: #232c7f;
+}
+.tutor-account__btn {
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.6rem 1.5rem;
+  letter-spacing: 1px;
+  background-color: #232c7f;
+  color: white;
+}
+
+/*****Tutor-account End Section *****/
